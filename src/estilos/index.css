@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+                      url(../imagens/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    max-width: 70px; /* Em vez de width: 70px; */
+}
+.menu{
+    flex: 1;
+    text-align: right;
+}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.menu ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 13px;
+}
+.menu ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #ffffff;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.menu ul li:hover::after{
+    width: 100%;
+}
+.texto_principal{
+    width: 90%;
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.texto_principal h1{
+    font-size: 62px;
+}
+.texto_principal p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: #ffffff;
+}
+.botao_saibamais{
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.botao_saibamais:hover{
+    border: 1px solid #575757;
+    background: #575757;
+    transition: 0.5s;
+}
+.texto_segundario{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;    
+}
+.texto_segundario h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+.texto_segundario p{
+    color: #3d3d3d;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.coluna{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.texto_coluna{
+    flex-basis: 31%;
+    background-color: #ebebeb;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.texto_coluna h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.texto_coluna:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+.qual_sensa_inova{
+    padding: 50px 12%;
+    font-size: 17px;
+}
+.valores{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+.texto_valores{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.img_valores{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.img_valores img{
+    display: block;
+    width: 90%;
+    margin: auto;
+    border-radius: 10%;
+}
+.qual_sensa_inova h2{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+/* responsividade */
+@media screen and (max-width: 768px) {
+        .texto_principal h1 {
+            font-size: 36px; /* Reduzir o tamanho da fonte para telas menores */
+        }
+        
+        .menu {
+            flex-direction: row; /* Voltar à direção original da linha */
+            justify-content: center; /* Centralizar itens horizontalmente */
+            padding: 2% 0; /* Reduzir o espaçamento vertical */
+        }
+        
+        .menu ul {
+            display: flex;
+            flex-direction: row; /* Manter os itens na mesma linha */
+            align-items: center; /* Centralizar itens verticalmente */
+            margin: 0; /* Remover margem superior dos itens */
+        }
+        
+        .menu ul li {
+            padding: 0 12px; /* Adicionar espaçamento horizontal entre os itens */
+        }
+    
+    .texto_segundario {
+        padding-top: 50px; /* Reduzir o espaço superior */
+    }
+    
+    .coluna {
+        flex-direction: column; /* Uma coluna em vez de duas */
+    }
+    
+    .texto_coluna {
+        flex-basis: 100%; /* Largura total para colunas em telas menores */
+        margin-bottom: 3%; /* Espaçamento menor entre colunas */
+    }
+    .qual_sensa_inova {
+        padding: 20px 12%; /* Reduzir o padding para economizar espaço vertical */
+        font-size: 15px; /* Reduzir o tamanho da fonte para telas menores */
+    }
+    
+    .valores {
+        flex-direction: column; /* Colocar os elementos em uma coluna */
+        align-items: center; /* Centralizar elementos horizontalmente */
+        padding: 20px 0; /* Reduzir o padding vertical */
+    }
+    
+    .texto_valores,
+    .img_valores {
+        flex-basis: 100%; /* Largura total para os elementos */
+        text-align: center; /* Centralizar o conteúdo */
+        margin-bottom: 20px; /* Espaçamento entre os elementos */
+    }
+    
+    .img_valores img {
+        max-width: 80%; /* Limitar a largura da imagem */
+    }
+}
+
+/* footer */
+footer{
+    background: #000000;
+    height: auto;
+    width: 100%;
+    padding-top: 40px;
+    color: #fff;
+    text-align: center;
+}
+.footer_conteudo{
+    display: flex;
+    flex-direction: column;
+}
+.footer_conteudo h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer_conteudo p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.redes{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.redes li{
+    margin: 0 10px;
+}
+.redes a{
+    text-decoration: none;
+    color: #fff;
+}
+.redes a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+.facebook:hover{
+    color: #3b5998;
+}
+.instagram:hover{
+    color: #c8788a;
+}
+.linkedin:hover{
+    color: #2172e1;
+}
+.youtube:hover{
+    color: #f00104;
+}
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding: 20px 0;
+}
+.footer_nomes p{
+    font-size: 14px;
+    word-spacing: 2px;
+}
+.footer_nomes span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
