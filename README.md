@@ -20,5 +20,5 @@ A SCANIA, renomada fabricante de caminhões e ônibus, tem uma história rica e 
 - **Navegação Intuitiva:** A navegação no site é projetada para ser intuitiva, permitindo que os usuários explorem facilmente diferentes seções e descubram informações relevantes sobre a SCANIA.
 
 <p align="center">
-  <img src="https://lh3.googleusercontent.com/proxy/BdOPbO3fLZ-V_yhMIXAA_BscX_c0uCZR8e9BDUGCjl4BqiuMI7UJG0-Yd8HWenkU3-4pEyD-hrXe4b4EQhSNGxjEavan8iSWuKyA71l_n0LPeFl8Ae5NMZiVNgoS9z0FJGmFTf9lF2YQSJU" alt="Imagem SCANIA">
+  <img src="https://i.pinimg.com/originals/9a/24/e9/9a24e94af29fa0aa569c7d9f1789c746.jpg" height="200px" alt="Imagem SCANIA">
 </p>
