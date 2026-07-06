@@ -1,24 +1,89 @@
-# 🚚 SCANIA Responsive Website
-
-Este é um projeto de site responsivo com o tema SCANIA, desenvolvido utilizando HTML e CSS. O objetivo principal é proporcionar uma experiência de usuário envolvente, adaptável a diferentes dispositivos, enquanto destaca os aspectos distintivos da marca SCANIA.
-
-## 🔧 Ferramentas Utilizadas
-
-- **HTML:** Linguagem de marcação utilizada para estruturar o conteúdo do site.
-- **CSS:** Linguagem de estilo que define a apresentação e o layout do site.
-
-## 📜 História da SCANIA
-
-A SCANIA, renomada fabricante de caminhões e ônibus, tem uma história rica e impactante no setor de transporte. Fundada em 1891 na Suécia, a empresa tem desempenhado um papel crucial na evolução dos veículos comerciais ao longo dos anos. Sua dedicação à inovação, qualidade e sustentabilidade a tornou uma referência global no mercado.
-
-## ⚙️ Funcionalidades
-
-- **Responsividade:** O site foi projetado para funcionar perfeitamente em uma variedade de dispositivos, desde desktops até smartphones, garantindo uma experiência consistente para todos os usuários.
-
-- **Design Atraente:** O layout do site é cuidadosamente elaborado para ser atraente e moderno, refletindo a identidade visual da SCANIA. Elementos visuais e gráficos são utilizados para destacar a marca de maneira eficaz.
-
-- **Navegação Intuitiva:** A navegação no site é projetada para ser intuitiva, permitindo que os usuários explorem facilmente diferentes seções e descubram informações relevantes sobre a SCANIA.
+# 🚛 SCANIA Responsive Website
 
 <p align="center">
-  <img src="https://i.pinimg.com/originals/9a/24/e9/9a24e94af29fa0aa569c7d9f1789c746.jpg" height="200px" alt="Imagem SCANIA">
+  <img src="https://i2.wp.com/coeparts.com.br/wp-content/uploads/2018/05/scania-1-logo-png-transparent.png?fit=1200%2C1200" alt="Scania Logo" width="180">
 </p>
+
+## 📖 Sobre o Projeto
+
+O **SCANIA Responsive Website** é uma landing page desenvolvida com **HTML5** e **CSS3**, inspirada na identidade visual da Scania, uma das maiores fabricantes de caminhões, ônibus e soluções de transporte do mundo.
+
+O projeto foi criado com o objetivo de praticar conceitos de desenvolvimento Front-end, focando em responsividade, organização do código e construção de interfaces modernas e elegantes.
+
+---
+
+## ✨ Funcionalidades
+
+- 📱 Layout totalmente responsivo
+- 🎨 Interface inspirada na identidade visual da Scania
+- 🖥️ Compatibilidade com desktops, tablets e smartphones
+- ⚡ Navegação simples e intuitiva
+- 📐 Estrutura organizada utilizando HTML semântico
+- 💡 Design limpo e moderno
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- HTML5
+- CSS3
+
+---
+
+## 📂 Estrutura do Projeto
+
+```text
+Scania-Responsive-Website/
+├── assets/
+│   ├── css/
+│   └── img/
+├── index.html
+└── README.md
+```
+
+---
+
+## ▶️ Como Executar
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/SEU-USUARIO/Scania-Responsive-Website.git
+```
+
+Entre na pasta do projeto:
+
+```bash
+cd Scania-Responsive-Website
+```
+
+Abra o arquivo **index.html** no navegador ou utilize uma extensão como **Live Server** no Visual Studio Code.
+
+---
+
+## 🎯 Objetivos
+
+Este projeto foi desenvolvido para praticar conceitos fundamentais de desenvolvimento web, incluindo:
+
+- Estruturação de páginas com HTML5
+- Estilização com CSS3
+- Responsividade
+- Flexbox
+- Organização de layouts
+- Boas práticas de desenvolvimento Front-end
+
+---
+
+## 🚀 Melhorias Futuras
+
+- [ ] Adicionar animações com CSS
+- [ ] Implementar menu responsivo
+- [ ] Criar seção de contato
+- [ ] Adicionar efeitos de transição
+- [ ] Melhorar a acessibilidade
+
+---
+
+## 📄 Licença
+
+Este projeto foi desenvolvido para fins de estudo e prática de desenvolvimento Front-end. Sinta-se à vontade para utilizá-lo como referência em seus próprios projetos.
